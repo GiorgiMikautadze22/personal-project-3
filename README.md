@@ -31,6 +31,8 @@
 ●    ხარჯების გამოთხოვა
 ●    ინდივიდუალური ხარჯის გამოთხოვა.
 
+Expense manager აპლიკაციის ყველა სერვის კლასისთვის დაწერეთ unit ტესტები.
+
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
