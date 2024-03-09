@@ -11,9 +11,9 @@ export class ExpensesService {
 
   async create(createExpenseDto: CreateExpenseDto) {
     const createdExpense = await this.expenseModel.create(createExpenseDto);
-    const savedExpense = await createdExpense.save();
+    await createdExpense.save();
     
-    return savedExpense;
+    return createdExpense;
   }
 
   findAll() {
